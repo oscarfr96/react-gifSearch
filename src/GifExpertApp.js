@@ -4,6 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
   
+    //Hook useState
     const [categories, setCategories] = useState(['Batman']);
 
     return (
